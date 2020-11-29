@@ -32,9 +32,9 @@ namespace Exercise_3
             this.convertButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.poundsLabel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.poundsTextBox = new System.Windows.Forms.TextBox();
             this.kilogramLabel = new System.Windows.Forms.Label();
+            this.poundsTextBox = new System.Windows.Forms.TextBox();
+            this.kilogramOutputLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // convertButton
@@ -66,14 +66,14 @@ namespace Exercise_3
             this.poundsLabel.TabIndex = 2;
             this.poundsLabel.Text = "Enter your weight in pounds:";
             // 
-            // label1
+            // kilogramLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(38, 87);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "This is your weight in Kilograms:";
+            this.kilogramLabel.AutoSize = true;
+            this.kilogramLabel.Location = new System.Drawing.Point(38, 87);
+            this.kilogramLabel.Name = "kilogramLabel";
+            this.kilogramLabel.Size = new System.Drawing.Size(156, 13);
+            this.kilogramLabel.TabIndex = 3;
+            this.kilogramLabel.Text = "This is your weight in Kilograms:";
             // 
             // poundsTextBox
             // 
@@ -82,21 +82,22 @@ namespace Exercise_3
             this.poundsTextBox.Size = new System.Drawing.Size(100, 20);
             this.poundsTextBox.TabIndex = 4;
             // 
-            // kilogramLabel
+            // kilogramOutputLabel
             // 
-            this.kilogramLabel.Location = new System.Drawing.Point(215, 77);
-            this.kilogramLabel.Name = "kilogramLabel";
-            this.kilogramLabel.Size = new System.Drawing.Size(100, 23);
-            this.kilogramLabel.TabIndex = 5;
+            this.kilogramOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.kilogramOutputLabel.Location = new System.Drawing.Point(215, 87);
+            this.kilogramOutputLabel.Name = "kilogramOutputLabel";
+            this.kilogramOutputLabel.Size = new System.Drawing.Size(100, 23);
+            this.kilogramOutputLabel.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(468, 255);
-            this.Controls.Add(this.kilogramLabel);
+            this.ClientSize = new System.Drawing.Size(450, 252);
+            this.Controls.Add(this.kilogramOutputLabel);
             this.Controls.Add(this.poundsTextBox);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.kilogramLabel);
             this.Controls.Add(this.poundsLabel);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.convertButton);
@@ -112,9 +113,9 @@ namespace Exercise_3
         private System.Windows.Forms.Button convertButton;
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.Label poundsLabel;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox poundsTextBox;
         private System.Windows.Forms.Label kilogramLabel;
+        private System.Windows.Forms.TextBox poundsTextBox;
+        private System.Windows.Forms.Label kilogramOutputLabel;
     }
 }
 

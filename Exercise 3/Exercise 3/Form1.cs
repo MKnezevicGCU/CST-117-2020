@@ -33,7 +33,7 @@ namespace Exercise_3
             answer = pounds * kilograms;
 
             //Display the answer in the label for answers.
-            kilogramLabel.Text = answer.ToString("n4");
+            kilogramOutputLabel.Text = answer.ToString("n3");
         }
 
         private void exitButton_Click(object sender, EventArgs e)
