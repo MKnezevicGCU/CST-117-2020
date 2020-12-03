@@ -18,25 +18,25 @@ namespace Exercise_7
 
         private double Average(double num1, double num2, double num3, double num4, double num5)
         {
-            
+            return 0;
         }
 
-        private int Sum(int num1, int num2)
+        private int Sum()
         {
-
+            int x = 0, y = 1;
+            return x + y;
         }
-
         private int Sum(int num1, int num2, int num3)
         {
-
+            return 0;
         }
         private string DisplayLessCharacters(string name, string age)
         {
-
+            return "Hello";
         }
         private List<double> LargestArrayValue(double[] num1, double[] num2)
         {
-
+            return null;
         }
         private List<int> ReturnArray()
         {
@@ -49,15 +49,15 @@ namespace Exercise_7
         }
         private bool ReturnBoolVariable(int num1, int num2)
         {
-
+            return false;
         }
-        private int double ReturnAnswer(int num1, double num2)
+        private int ReturnAnswer(int num1, double num2)
         {
-
+            return 0;
         }
         private int AverageArray(int[] num1, int[] num2, int[] num3)
         {
-
+            return 0;
         }
     }
 }
